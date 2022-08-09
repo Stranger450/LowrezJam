@@ -3,4 +3,4 @@
 
 
 
-path_delete(p_deb)
+player_oldMoney = player_money

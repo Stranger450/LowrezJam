@@ -19,7 +19,7 @@ if inside_bounds and draw_selected_field {
 
 
 #region moneybar
-draw_set_color(#ffd700)
+draw_set_color(#eebc1d)//#ffd700
 draw_rectangle(60,60-player_money-1, 64,60, false)
 draw_set_color(#ffffff)
 #endregion moneybar

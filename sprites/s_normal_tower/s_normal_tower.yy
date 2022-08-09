@@ -1,20 +1,19 @@
 {
-  "name": "s_Normal_Tower",
-  "HTile": false,
-  "VTile": false,
-  "For3D": false,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 0,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
+  "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 5,
   "bbox_top": 0,
   "bbox_bottom": 5,
-  "origin": 0,
-  "bboxMode": 0,
-  "collisionKind": 1,
-  "type": 0,
-  "swfPrecision": 2.525,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
   "width": 6,
   "height": 6,
   "textureGroupId": {
@@ -30,12 +29,6 @@
       ],"parent":{"name":"s_Normal_Tower","path":"sprites/s_Normal_Tower/s_Normal_Tower.yy",},"resourceVersion":"1.0","name":"ecdf0703-1f45-46e5-8a94-6c3b609c5315","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d09f78f5-bd7a-4500-bc0e-bc74d53bc27f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ecdf0703-1f45-46e5-8a94-6c3b609c5315","path":"sprites/s_Normal_Tower/s_Normal_Tower.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
-    ],
-    "visibleRange": null,
     "spriteId": {"name":"s_Normal_Tower","path":"sprites/s_Normal_Tower/s_Normal_Tower.yy",},
     "timeUnits": 1,
     "playback": 1,
@@ -46,6 +39,12 @@
     "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"d09f78f5-bd7a-4500-bc0e-bc74d53bc27f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ecdf0703-1f45-46e5-8a94-6c3b609c5315","path":"sprites/s_Normal_Tower/s_Normal_Tower.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -74,6 +73,7 @@
     "path": "folders/Sprites/towers.yy",
   },
   "resourceVersion": "1.0",
+  "name": "s_Normal_Tower",
   "tags": [],
   "resourceType": "GMSprite",
 }

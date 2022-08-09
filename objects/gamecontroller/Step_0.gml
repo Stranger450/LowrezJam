@@ -3,4 +3,4 @@
 
 
 
-show_debug_message(player_money)
+//show_debug_message(player_money)

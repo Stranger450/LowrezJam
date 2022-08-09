@@ -16,6 +16,7 @@ instance_create_layer(0, player_start*6, "towers", o_castle)
 shopList = [o_normal_tower, o_catapult, o_magetower, o_wall,o_spikes,o_goldfield,o_swamp]
 
 player_money = 42
+player_oldMoney = player_money
 
 prices = ds_map_create()
 

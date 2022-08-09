@@ -17,6 +17,7 @@
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"o_goblin","path":"objects/o_goblin/o_goblin.yy",},"order":0,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":3,},
+    {"id":{"name":"s_WallTest","path":"sprites/s_WallTest/s_WallTest.yy",},"order":8,},
     {"id":{"name":"o_albinoGoblin","path":"objects/o_albinoGoblin/o_albinoGoblin.yy",},"order":2,},
     {"id":{"name":"o_goldfield","path":"objects/o_goldfield/o_goldfield.yy",},"order":7,},
     {"id":{"name":"o_test_6x6","path":"objects/o_test_6x6/o_test_6x6.yy",},"order":2,},
