@@ -24,6 +24,7 @@
     {"id":{"name":"s_swamp","path":"sprites/s_swamp/s_swamp.yy",},"order":6,},
     {"id":{"name":"parent_tower","path":"objects/parent_tower/parent_tower.yy",},"order":4,},
     {"id":{"name":"o_normal_tower","path":"objects/o_normal_tower/o_normal_tower.yy",},"order":0,},
+    {"id":{"name":"s_moneyBarOverlay","path":"sprites/s_moneyBarOverlay/s_moneyBarOverlay.yy",},"order":4,},
     {"id":{"name":"o_sheep","path":"objects/o_sheep/o_sheep.yy",},"order":0,},
     {"id":{"name":"o_catapult","path":"objects/o_catapult/o_catapult.yy",},"order":1,},
     {"id":{"name":"s_catapult","path":"sprites/s_catapult/s_catapult.yy",},"order":1,},

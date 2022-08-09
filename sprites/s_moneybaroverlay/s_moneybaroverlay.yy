@@ -7,7 +7,7 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
+  "bbox_left": 60,
   "bbox_right": 63,
   "bbox_top": 0,
   "bbox_bottom": 59,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3f675c2c-3553-47c4-985b-84a670cae593","path":"sprites/s_map/s_map.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3f675c2c-3553-47c4-985b-84a670cae593","path":"sprites/s_map/s_map.yy",},"LayerId":{"name":"35eeac08-cfb6-4271-9da6-b7d90a18c7cb","path":"sprites/s_map/s_map.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_map","path":"sprites/s_map/s_map.yy",},"resourceVersion":"1.0","name":"3f675c2c-3553-47c4-985b-84a670cae593","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0baed049-ae11-41af-abf7-dbd0062b6b63","path":"sprites/s_moneyBarOverlay/s_moneyBarOverlay.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0baed049-ae11-41af-abf7-dbd0062b6b63","path":"sprites/s_moneyBarOverlay/s_moneyBarOverlay.yy",},"LayerId":{"name":"4f65379c-1ea8-4bd1-a6db-d5c31077a6d9","path":"sprites/s_moneyBarOverlay/s_moneyBarOverlay.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_moneyBarOverlay","path":"sprites/s_moneyBarOverlay/s_moneyBarOverlay.yy",},"resourceVersion":"1.0","name":"0baed049-ae11-41af-abf7-dbd0062b6b63","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_map","path":"sprites/s_map/s_map.yy",},
+    "spriteId": {"name":"s_moneyBarOverlay","path":"sprites/s_moneyBarOverlay/s_moneyBarOverlay.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4876d961-9641-48c7-95a8-d3644e2fd134","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f675c2c-3553-47c4-985b-84a670cae593","path":"sprites/s_map/s_map.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"6282e5af-1a36-4ef5-ad54-4a478afd66b3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0baed049-ae11-41af-abf7-dbd0062b6b63","path":"sprites/s_moneyBarOverlay/s_moneyBarOverlay.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_map","path":"sprites/s_map/s_map.yy",},
+    "parent": {"name":"s_moneyBarOverlay","path":"sprites/s_moneyBarOverlay/s_moneyBarOverlay.yy",},
     "resourceVersion": "1.4",
-    "name": "s_map",
+    "name": "s_moneyBarOverlay",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"35eeac08-cfb6-4271-9da6-b7d90a18c7cb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4f65379c-1ea8-4bd1-a6db-d5c31077a6d9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/map_stuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_map",
+  "name": "s_moneyBarOverlay",
   "tags": [],
   "resourceType": "GMSprite",
 }
