@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 
-ds_grid_destroy(grid)
-ds_grid_destroy(pred)
+
+p_deb = calculate_path(o_hole.x, o_hole.y, o_castle.x, o_castle.y)

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_albinoGoblin",
-    "path": "sprites/s_albinoGoblin/s_albinoGoblin.yy",
+    "name": "s_swamp",
+    "path": "sprites/s_swamp/s_swamp.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "parent_enemy",
-    "path": "objects/parent_enemy/parent_enemy.yy",
+    "name": "parent_ground",
+    "path": "objects/parent_ground/parent_ground.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,18 +24,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":12,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "towers",
+    "path": "folders/Objects/towers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_albinoGoblin",
+  "name": "o_swamp",
   "tags": [],
   "resourceType": "GMObject",
 }

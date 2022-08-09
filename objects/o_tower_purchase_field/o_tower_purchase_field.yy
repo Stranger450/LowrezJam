@@ -1,16 +1,15 @@
 {
-  "name": "o_tower_purchase_field",
   "spriteId": {
     "name": "s_shop_background",
     "path": "sprites/s_shop_background/s_shop_background.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -37,6 +36,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
+  "name": "o_tower_purchase_field",
   "tags": [],
   "resourceType": "GMObject",
 }

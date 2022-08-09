@@ -12,4 +12,4 @@ instance_create_layer(54, enemy_start*6, "towers", o_hole)
 instance_create_layer(0, player_start*6, "towers", o_castle)
 
 
-shopList = [o_normal_tower, o_catapult, o_tower3, o_wall]
+shopList = [o_normal_tower, o_catapult, o_magetower, o_wall,o_spikes,o_goldfield,o_swamp]

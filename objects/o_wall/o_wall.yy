@@ -1,19 +1,18 @@
 {
-  "name": "o_wall",
   "spriteId": {
     "name": "s_wall",
     "path": "sprites/s_wall/s_wall.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": true,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": {
     "name": "parent_tower",
     "path": "objects/parent_tower/parent_tower.yy",
   },
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -36,6 +35,7 @@
     "path": "folders/Objects/towers.yy",
   },
   "resourceVersion": "1.0",
+  "name": "o_wall",
   "tags": [],
   "resourceType": "GMObject",
 }

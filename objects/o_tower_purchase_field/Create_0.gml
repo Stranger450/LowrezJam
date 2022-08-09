@@ -14,5 +14,5 @@ if (y < 30) {
 	// draw below
 	y += 7
 } else {
-	y -= 9
+	y -= 15
 }

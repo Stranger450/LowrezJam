@@ -3,7 +3,11 @@
 draw_self()
 
 for (var i = 0; i < array_length(gamecontroller.shopList); ++i) {
-    draw_sprite(object_get_sprite(gamecontroller.shopList[i]),0,x+1+6*i,y+1)
+	if i < 4{
+		draw_sprite(object_get_sprite(gamecontroller.shopList[i]),0,x+1+6*i,y+1)
+	}else{
+		draw_sprite(object_get_sprite(gamecontroller.shopList[i]),0,x+1+6*(i-4),y+7)	
+	}
 }
 
 draw_set_alpha(selected_alpha)

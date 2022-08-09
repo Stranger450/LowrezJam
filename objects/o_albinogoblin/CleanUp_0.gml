@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 
-ds_grid_destroy(grid)
-ds_grid_destroy(pred)
+
+path_delete(p_deb)
