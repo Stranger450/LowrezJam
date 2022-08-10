@@ -1,17 +1,11 @@
 {
-  "spriteId": {
-    "name": "s_magetower",
-    "path": "sprites/s_magetower/s_magetower.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "parent_tower",
-    "path": "objects/parent_tower/parent_tower.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -30,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "towers",
-    "path": "folders/Objects/towers.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_magetower",
+  "name": "particles",
   "tags": [],
   "resourceType": "GMObject",
 }

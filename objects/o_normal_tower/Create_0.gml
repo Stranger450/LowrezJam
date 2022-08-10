@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 
-drop = 2
-hp = 300
-spd = 10
+
+shoot_cd = 20
 
 event_inherited()
 
-
-
+range = 8
+dmg = 20
+projectile = o_arrow

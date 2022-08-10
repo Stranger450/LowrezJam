@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_magetower",
-    "path": "sprites/s_magetower/s_magetower.yy",
+    "name": "s_boulder",
+    "path": "sprites/s_boulder/s_boulder.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "parent_tower",
-    "path": "objects/parent_tower/parent_tower.yy",
+    "name": "parent_projectile",
+    "path": "objects/parent_projectile/parent_projectile.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,16 +25,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "towers",
-    "path": "folders/Objects/towers.yy",
+    "name": "Projectiles",
+    "path": "folders/Objects/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_magetower",
+  "name": "o_boulder",
   "tags": [],
   "resourceType": "GMObject",
 }
