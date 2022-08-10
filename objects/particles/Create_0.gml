@@ -4,7 +4,7 @@
 
 
 pg_system = part_system_create_layer("particles_ground", 0)
-
+p_system = part_system_create_layer("particles",0)
 
 
 blood = part_type_create()
@@ -90,5 +90,16 @@ part_type_color_rgb(mage_shoot,70,255,0,80,0,50)
 part_type_alpha2(mage_shoot, 0.7, 0.2)
 part_type_size(mage_shoot,1,1,0,0)
 part_type_direction(mage_shoot,70,110,0,3)
-part_type_speed(mage_shoot,0.1,0.2,0,0)
-part_type_life(mage_shoot,0.7*room_speed,1.5*room_speed)
+part_type_speed(mage_shoot,0.3,0.4,0,0)
+part_type_life(mage_shoot,1*room_speed,1.5*room_speed)
+
+catapult_land = part_type_create()
+
+part_type_shape(catapult_land, pt_shape_pixel)
+var col = irandom_range(120, 220)
+part_type_color_rgb(catapult_land,col,col,col,col,col,col)
+part_type_alpha2(catapult_land, 1, 1)
+part_type_size(catapult_land,1,1,0,0)
+part_type_direction(catapult_land,0,360,0,0)
+part_type_speed(catapult_land,0.1,0.3,0,0)
+part_type_life(catapult_land,0.333*room_speed,0.333*room_speed)

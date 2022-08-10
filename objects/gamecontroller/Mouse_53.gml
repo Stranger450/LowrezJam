@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 
+part_particles_create(particles.p_system, mouse_x, mouse_y, particles.click, 5)
 
 selected_x_start = floor(mouse_x / 6) * 6
 selected_y_start = floor(mouse_y / 6) * 6 

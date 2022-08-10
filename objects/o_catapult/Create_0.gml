@@ -7,7 +7,7 @@ event_inherited()
 
 min_range = 12
 
-range = 30
+range = 40
 
 dmg = 100
 

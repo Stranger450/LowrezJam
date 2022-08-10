@@ -14,7 +14,7 @@ if instance_exists(goal){
 distance_behind += speed
 distance_forward = point_distance(gx, gy, x, y)
 total_distance = distance_behind + distance_forward
-size_increase = 1 + (distance_forward / total_distance) * 1.5
+size_increase = 2 - 2*abs(distance_forward - total_distance/2)/total_distance
 
 image_xscale = size_increase
 image_yscale = size_increase

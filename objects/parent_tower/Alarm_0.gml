@@ -7,7 +7,7 @@ attack_choice = noone
 
 for (var i = 0; i < instance_number(parent_enemy); ++i) {
     enemy = instance_find(parent_enemy, i)
-	distance = distance_to_object(enemy)
+	distance = point_distance(x+3, y+3, enemy.x+3, enemy.y+3)
 	if min_range <= distance and distance <= range{
 		if enemy.distance_to_goal < minimum{
 			attack_choice = enemy
