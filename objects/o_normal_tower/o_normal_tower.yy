@@ -1,19 +1,18 @@
 {
-  "name": "o_normal_tower",
   "spriteId": {
     "name": "s_Normal_Tower",
     "path": "sprites/s_Normal_Tower/s_Normal_Tower.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": {
     "name": "parent_tower",
     "path": "objects/parent_tower/parent_tower.yy",
   },
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -25,10 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -36,6 +32,7 @@
     "path": "folders/Objects/towers.yy",
   },
   "resourceVersion": "1.0",
+  "name": "o_normal_tower",
   "tags": [],
   "resourceType": "GMObject",
 }

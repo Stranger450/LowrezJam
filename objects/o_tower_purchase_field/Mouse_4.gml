@@ -16,4 +16,9 @@ if clickedInstance >= 0 and clickedInstance < array_length(gamecontroller.shopLi
 			pathfindingcontroller.set_collider(selected_x_start, selected_y_start)
 		
 	}
+	layer_enable_fx("Screenshake",true)
+	gamecontroller.alarm[0] = 3
+	with (parent_enemy){
+		event_user(0)
+	}
 }

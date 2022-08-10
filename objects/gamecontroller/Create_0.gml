@@ -27,3 +27,9 @@ prices[? o_wall]         = 1
 prices[? o_spikes]       = 3
 prices[? o_goldfield]    = 4
 prices[? o_swamp]        = 2
+
+var _fxshake = fx_create("_filter_screenshake")
+fx_set_parameter(_fxshake, "g_Magnitude",1.0)
+fx_set_parameter(_fxshake, "g_ShakeSpeed ",0.25)
+layer_set_fx("Screenshake",_fxshake)
+layer_enable_fx("Screenshake",false)

@@ -39,9 +39,6 @@ function inside(coords) {
 		if grid[# coords._x, coords._y] == Cell.empty{
 			return true
 		}
-		else{
-			show_debug_message("obstructed")	
-		}
 	} else {
 		return false	
 	}
@@ -143,6 +140,9 @@ function extract_path(f_x, f_y, t_x, t_y) {
 	
 	path_reverse(p)
 	path_rescale(p, 6, 6)
+	wrong_x = path_get_point_x(p, 0)
+	wrong_y = path_get_point_y(p, 0)
+	path_shift(p, f_x*6-wrong_x,f_y*6-wrong_y)
 	
 	return p	
 }

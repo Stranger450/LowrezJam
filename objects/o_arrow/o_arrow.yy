@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_castle",
-    "path": "sprites/s_castle/s_castle.yy",
+    "name": "s_arrow",
+    "path": "sprites/s_arrow/s_arrow.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "parent_cannotBuyHere",
-    "path": "objects/parent_cannotBuyHere/parent_cannotBuyHere.yy",
+    "name": "parent_projectile",
+    "path": "objects/parent_projectile/parent_projectile.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,11 +28,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Projectiles",
+    "path": "folders/Objects/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_castle",
+  "name": "o_arrow",
   "tags": [],
   "resourceType": "GMObject",
 }
