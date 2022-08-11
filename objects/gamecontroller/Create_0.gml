@@ -16,7 +16,7 @@ instance_create_layer(0, player_start*6, "towers", o_castle)
 
 
 shopList = [o_normal_tower, o_catapult, o_magetower, o_wall,o_spikes,o_goldfield,o_swamp]
-range_list = [20, 30, 15, 0]
+range_list = [20, 30, 12, 0]
 min_range_list = [0, 12, 0, 0]
 
 player_money = 75
