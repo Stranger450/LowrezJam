@@ -34,6 +34,13 @@ function set_collider(_x, _y) {
 	grid[# x_ind, y_ind] = Cell.obstructed
 }
 
+function remove_collider(_x, _y) {
+	x_ind = to_index(_x)
+	y_ind = to_index(_y)
+	
+	grid[# x_ind, y_ind] = Cell.empty
+}
+
 function inside(coords) {
 	if (coords._x < 10 and coords._x >= 0 and coords._y < 10 and coords._y >= 0) {
 		if grid[# coords._x, coords._y] == Cell.empty{

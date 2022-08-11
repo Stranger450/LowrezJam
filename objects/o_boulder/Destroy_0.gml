@@ -5,8 +5,9 @@ for (var i = 0; i < instance_number(parent_enemy); ++i) {
     enemy = instance_find(parent_enemy, i)
 	distance = distance_to_object(enemy)
 	if distance < 2.5{
-		enemy.lv = 0.6
-		enemy.alarm[2] = 5
+		with(enemy){
+			event_user(1)	
+		}
 		enemy.hp -= p_dmg
 	}
 	

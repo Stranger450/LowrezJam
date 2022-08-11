@@ -32,8 +32,9 @@ for (var i = ds_list_size(all_enemies); i > 0; --i) {
 }
 for (var i = 0; i < ds_list_size(all_enemies); ++i) {
 	enemy = all_enemies[| i]
-	enemy.lv = 0.6
-	enemy.alarm[2] = 5
+	with(enemy){
+		event_user(1)	
+	}
     enemy.hp -= dmg
 }
 

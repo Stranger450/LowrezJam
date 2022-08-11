@@ -19,7 +19,7 @@ shopList = [o_normal_tower, o_catapult, o_magetower, o_wall,o_spikes,o_goldfield
 range_list = [20, 30, 15, 0]
 min_range_list = [0, 12, 0, 0]
 
-player_money = 42
+player_money = 75
 player_oldMoney = player_money
 
 prices = ds_map_create()
