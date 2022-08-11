@@ -5,7 +5,7 @@ shoot_cd = 1
 
 event_inherited()
 
-range = 15
+range = gamecontroller.range_list[2]
 
 dmg = 0.35
 

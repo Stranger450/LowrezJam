@@ -6,8 +6,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "parent_cannotBuyHere",
-    "path": "objects/parent_cannotBuyHere/parent_cannotBuyHere.yy",
+    "name": "parent_sellable",
+    "path": "objects/parent_sellable/parent_sellable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

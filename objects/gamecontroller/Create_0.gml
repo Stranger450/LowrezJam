@@ -2,6 +2,8 @@
 // You can write your code in this editor
 randomise()
 
+global.Font = font_add_sprite(s_font, ord(0),true, 1)
+
 draw_selected_field = true
 inside_bounds = false
 selected_alpha = 0.6
@@ -14,6 +16,8 @@ instance_create_layer(0, player_start*6, "towers", o_castle)
 
 
 shopList = [o_normal_tower, o_catapult, o_magetower, o_wall,o_spikes,o_goldfield,o_swamp]
+range_list = [20, 30, 15, 0]
+min_range_list = [0, 12, 0, 0]
 
 player_money = 42
 player_oldMoney = player_money

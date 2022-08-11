@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+hovered_price = noone
+radius = noone
+min_radius = noone
+
 gamecontroller.draw_selected_field = false
 selected_alpha = gamecontroller.selected_alpha
 selected_x_start = gamecontroller.selected_x_start

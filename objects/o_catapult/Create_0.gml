@@ -5,10 +5,10 @@ shoot_cd = 120
 
 event_inherited()
 
-min_range = 12
+min_range = gamecontroller.min_range_list[1]
 
-range = 40
+range = gamecontroller.range_list[1]
 
-dmg = 100
+dmg = 75
 
 projectile = o_boulder

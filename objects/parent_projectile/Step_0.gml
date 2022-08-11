@@ -17,6 +17,8 @@ direction = point_direction(x,y,gx,gy)
 
 
 if place_meeting(x,y,goal){
+	goal.lv = 0.6
+	goal.alarm[2] = 5
 	goal.hp -= p_dmg
 	instance_destroy(self)
 }

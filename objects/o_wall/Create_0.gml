@@ -8,3 +8,5 @@ for (var i = 0; i < instance_number(o_wall); ++i) {
 }
 
 part_particles_create(particles.p_system, x + sprite_width/2, y + sprite_width/2, particles.dust1, 10)
+
+range = gamecontroller.range_list[3]

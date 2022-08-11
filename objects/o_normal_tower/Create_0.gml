@@ -7,6 +7,7 @@ shoot_cd = 20
 
 event_inherited()
 
-range = 8
-dmg = 20
+range = gamecontroller.range_list[0]
+
+dmg = 8
 projectile = o_arrow
