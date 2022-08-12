@@ -9,7 +9,7 @@ uniform float lerp_val;
 uniform int gotHit;
 
 vec4 lerp(vec4 a, vec4 b, float t){
-	return a * (1.0 - t) + b * t;	
+	return a * (1.0 - t) + b * t;
 }
 
 void main()

@@ -9,5 +9,5 @@ event_inherited()
 
 range = gamecontroller.range_list[0]
 
-dmg = 8
+dmg = 10
 projectile = o_arrow

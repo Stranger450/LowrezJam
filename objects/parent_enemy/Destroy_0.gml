@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if position_meeting(x+3,y+3,o_goldfield){
-	drop += 1	
+	drop += 2
 }
 
 gamecontroller.player_money += drop

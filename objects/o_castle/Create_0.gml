@@ -4,7 +4,7 @@
 
 
 hp = 10
-
+global.wave = 0
 
 shader_params = shader_get_uniform(HitShader,"lerp_val")
 

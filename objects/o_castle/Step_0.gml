@@ -4,5 +4,6 @@
 
 
 if hp <= 0{
-	room_goto(MainMenu)
+	global.wave = o_hole.wave_num
+	room_goto(Restart)
 }
