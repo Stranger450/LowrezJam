@@ -14,7 +14,7 @@ all_enemies = ds_map_create()
 values = ds_map_create()
 
 register(o_goblin, 1, 1)
-register(o_albinoGoblin, 3, 2)
+register(o_albinoGoblin, 3, 3)
 register(o_snail, 2, 5)
 register(o_blackKnight, 10, 10)
 
@@ -55,10 +55,10 @@ function get_next_wave_value(cur_val, wave_num) {
 }
 
 function get_next_hp_multiplier(cur_val, wave_num) {
-	if wave_num == 1
+	if wave_num < 5
 		return 1
 		
-	return cur_val * 1.05
+	return cur_val * 1.2
 }
 
-spawn_next_wave()
+alarm[2] = game_get_speed(gamespeed_fps) * 8

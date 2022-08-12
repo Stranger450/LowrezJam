@@ -27,7 +27,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"hp","path":"objects/parent_enemy/parent_enemy.yy",},"objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"value":"1000","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/parent_enemy/parent_enemy.yy",},"objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"value":"4000","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"spd","path":"objects/parent_enemy/parent_enemy.yy",},"objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"drop","path":"objects/parent_enemy/parent_enemy.yy",},"objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],

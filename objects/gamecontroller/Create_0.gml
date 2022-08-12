@@ -19,18 +19,18 @@ shopList = [o_normal_tower, o_catapult, o_magetower, o_wall,o_spikes,o_goldfield
 range_list = [20, 30, 12, 0]
 min_range_list = [0, 12, 0, 0]
 
-player_money = 7
+player_money = 20
 player_oldMoney = player_money
 
 prices = ds_map_create()
 
-prices[? o_normal_tower] = 3
-prices[? o_catapult]     = 5
-prices[? o_magetower]    = 6
-prices[? o_wall]         = 1
-prices[? o_spikes]       = 3
-prices[? o_goldfield]    = 4
-prices[? o_swamp]        = 2
+prices[? o_normal_tower] = 8
+prices[? o_catapult]     = 10
+prices[? o_magetower]    = 18
+prices[? o_wall]         = 2
+prices[? o_spikes]       = 8
+prices[? o_goldfield]    = 7
+prices[? o_swamp]        = 4
 
 var _fxshake = fx_create("_filter_screenshake")
 fx_set_parameter(_fxshake, "g_Magnitude",1.0)
