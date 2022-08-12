@@ -2,12 +2,10 @@
 // You can write your code in this editor
 
 
-x = -100
 
-drop = 0
+hp = 10
 
-with (o_castle){
-	event_user(1)	
-}
 
-instance_destroy(self)
+shader_params = shader_get_uniform(HitShader,"lerp_val")
+
+lv = 0
