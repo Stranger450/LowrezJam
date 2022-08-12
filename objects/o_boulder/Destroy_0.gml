@@ -19,3 +19,6 @@ for (var i = 0; i < 20; ++i) {
     var col = irandom_range(120, 220)
 	part_type_color_rgb(particles.catapult_land,col,col,col,col,col,col)
 }
+
+
+audio_play_sound(sfx_catapult_attack, 0, false)

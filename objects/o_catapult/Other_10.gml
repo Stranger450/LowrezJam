@@ -7,3 +7,5 @@ image_index = 1
 
 
 alarm[1] = shoot_cd / 4
+
+

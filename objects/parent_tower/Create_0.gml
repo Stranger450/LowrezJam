@@ -8,3 +8,5 @@ min_range = 0
 dmg = 10
 
 alarm[0] = shoot_cd
+
+audio_play_sound(sfx_turret_place, 1, false)
