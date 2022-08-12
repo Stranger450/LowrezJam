@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-cd = 30
-dmg = 15
+draw_set_font(global.Font)
 
-alarm[0] = cd
+draw_self()
+draw_text(x,y,global.wave)

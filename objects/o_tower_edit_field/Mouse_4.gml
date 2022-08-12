@@ -4,9 +4,9 @@
 instance_destroy(tower)
 
 with(o_wall){
-	event_user(0)	
+	event_user(0)
 }
 
 with(parent_enemy){
-	event_user(0)	
+	event_user(0)
 }
