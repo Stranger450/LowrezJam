@@ -4,3 +4,4 @@
 
 
 ds_map_destroy(values)
+ds_map_destroy(all_enemies)

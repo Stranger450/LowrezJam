@@ -18,3 +18,5 @@ alarm[0] = room_speed
 shader_params = shader_get_uniform(HitShader,"lerp_val")
 
 lv = 0
+
+hp = round(hp * o_hole.hp_multiplier)

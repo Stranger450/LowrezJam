@@ -14,3 +14,5 @@ if slowed{
 }
 
 slowed = false
+
+show_debug_message(hp)

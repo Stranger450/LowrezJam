@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_albinoGoblin",
-    "path": "sprites/s_albinoGoblin/s_albinoGoblin.yy",
+    "name": "s_snail",
+    "path": "sprites/s_snail/s_snail.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,15 +27,16 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
+    {"propertyId":{"name":"hp","path":"objects/parent_enemy/parent_enemy.yy",},"objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"value":"80","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"spd","path":"objects/parent_enemy/parent_enemy.yy",},"objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"value":"30","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"drop","path":"objects/parent_enemy/parent_enemy.yy",},"objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"hp","path":"objects/parent_enemy/parent_enemy.yy",},"objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"value":"300","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_albinoGoblin",
+  "name": "o_snail",
   "tags": [],
   "resourceType": "GMObject",
 }

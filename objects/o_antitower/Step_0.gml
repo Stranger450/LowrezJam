@@ -17,5 +17,9 @@ if (place_meeting(x, y, target)) {
 	with (parent_enemy){
 		event_user(0)
 	}
+	
+	with (o_wall) {
+		event_user(0)	
+	}
 }
 
