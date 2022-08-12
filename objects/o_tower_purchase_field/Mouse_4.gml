@@ -20,6 +20,7 @@ if clickedInstance >= 0 and clickedInstance < array_length(gamecontroller.shopLi
 		if p == -1 {
 			pathfindingcontroller.remove_collider(selected_x_start, selected_y_start)
 			instance_create_layer(o_hole.x, o_hole.y, "enemies", o_antiTower, {target: created})
+			pathfindingcontroller.set_collider(selected_x_start, selected_y_start)
 		}
 			
 		layer_enable_fx("Screenshake",true)

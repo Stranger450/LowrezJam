@@ -13,5 +13,9 @@ if (place_meeting(x, y, target)) {
 	
 	path = pathfindingcontroller.calculate_path(x, y, o_hole.x, o_hole.y)
 	path_start(path, spd, path_action_stop, true)
+	
+	with (parent_enemy){
+		event_user(0)
+	}
 }
 

@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-path_delete(p_deb)
+if p_deb != -1
+	path_delete(p_deb)
 
 p_deb = pathfindingcontroller.calculate_path(x, y, o_castle.x, o_castle.y)
 
