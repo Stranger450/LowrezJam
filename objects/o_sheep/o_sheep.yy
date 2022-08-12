@@ -1,16 +1,15 @@
 {
-  "name": "o_sheep",
   "spriteId": {
     "name": "s_Sheep",
     "path": "sprites/s_Sheep/s_Sheep.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -34,6 +33,7 @@
     "path": "folders/Objects/BG.yy",
   },
   "resourceVersion": "1.0",
+  "name": "o_sheep",
   "tags": [],
   "resourceType": "GMObject",
 }
