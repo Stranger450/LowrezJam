@@ -25,7 +25,7 @@ player_oldMoney = player_money
 prices = ds_map_create()
 
 prices[? o_normal_tower] = 8
-prices[? o_catapult]     = 10
+prices[? o_catapult]     = 12
 prices[? o_magetower]    = 18
 prices[? o_wall]         = 2
 prices[? o_spikes]       = 8

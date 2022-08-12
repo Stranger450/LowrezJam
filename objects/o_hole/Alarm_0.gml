@@ -16,4 +16,4 @@ if val <= wave_value {
 if wave_value > 0
 	alarm[0] = game_get_speed(gamespeed_fps) * random_range(spawn_delay_min, spawn_delay_max)
 else
-	alarm[1] = game_get_speed(gamespeed_fps) * 10
+	alarm[1] = game_get_speed(gamespeed_fps) * 15
