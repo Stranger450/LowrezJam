@@ -3,6 +3,7 @@
 randomise()
 
 global.Font = font_add_sprite(s_font, ord(0),true, 1)
+audio_play_sound(sfx_theme, 0, true)
 
 draw_selected_field = true
 inside_bounds = false

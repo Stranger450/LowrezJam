@@ -51,6 +51,7 @@
     {"id":{"name":"o_goldfield","path":"objects/o_goldfield/o_goldfield.yy",},"order":7,},
     {"id":{"name":"o_antiTower","path":"objects/o_antiTower/o_antiTower.yy",},"order":3,},
     {"id":{"name":"s_Credits","path":"sprites/s_Credits/s_Credits.yy",},"order":0,},
+    {"id":{"name":"sfx_theme","path":"sounds/sfx_theme/sfx_theme.yy",},"order":6,},
     {"id":{"name":"o_test_6x6","path":"objects/o_test_6x6/o_test_6x6.yy",},"order":2,},
     {"id":{"name":"o_spikes","path":"objects/o_spikes/o_spikes.yy",},"order":5,},
     {"id":{"name":"sou_Sheep01","path":"sounds/sou_Sheep01/sou_Sheep01.yy",},"order":0,},
